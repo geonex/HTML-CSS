@@ -1,0 +1,47 @@
+body{
+   background-color: rgb(229, 225, 225);
+}
+
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    color: rgb(15, 13, 13);
+}
+
+nav li{
+    display: inline;
+    margin-right: 16px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav a, nav a:visited, nav a:active {
+
+    color: rgb(17, 16, 16);
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+/* hover = mouse is on the element */
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+footer {
+    background-color: rgb(229, 225, 225);
+    color: rgb(15, 13, 13);
+    font-size: 12px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    
+}
